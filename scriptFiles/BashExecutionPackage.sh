@@ -19,7 +19,7 @@ getCommandExecStatus() {
 }
 
 # Loading all the property variables required for the execution of this script.
-. 17200802_COMP47470_LoadBashProperties.sh
+. LoadBashProperties.sh
 getCommandExecStatus $? "$PROPERTY_FILE_LOAD_ERROR" "$PROPERTY_FILE_LOAD_INFO"
 
 : '
