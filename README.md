@@ -1,6 +1,16 @@
 # UnixForDataAnalysis
 Using Unix commands to perform data analysis
 
+Pre-Requisites:
+-----------------
+1) This script must be executed on a Unix machine (bash) only.
+2) The folder structure displayed in Section 2, must be followed as such. Any modification of the folder structure will result in the failure of the program.
+3) The logged in user must have enough privileges to execute the set of commands used in the project.
+
+
+Steps:
+--------
+
 --> Download all the relevant input files using the URLs given:
 			wget -i ./otherFiles/Download_URLS.txt -P ./inputFiles/
 			
